@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    direction: rtl;
+}
+.bsr {
+    margin-bottom: 3px;
+}
+input, select {
+    width: 42%;
+    padding: 2px;
+}
+input, select {
+    border: 1px solid #0decce;
+    border-radius: 6px;
+}
+form {
+    border: 5px solid #0df0a8fa;
+    border-radius: 20px;
+    box-shadow: 2px 4px 12px rgba(6, 246, 166, 0.15);
+    width: 400px;
+    margin: 50px auto;
+    background-color: rgba(14, 238, 171, 0.394);
+    padding: 20px;
+}
+button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button[type="submit"] {
+    background-color: #fe06a7;
+    color: rgb(230, 13, 13);
+}
+button[type="reset"] {
+    background-color: #e73cb7;
+    color: rgb(13, 4, 4);
+}
+canvas {
+    border: 1px solid #f38dd9;
+    border-radius: 6px;
+    display: block;
+    margin-top: 5px;
+    background-color: rgba(229, 98, 190, 0.431);
+}
+h2{
+ text-align: center;
+}
