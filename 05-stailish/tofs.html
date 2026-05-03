@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B.S.R הפקות</title>
     <link rel="stylesheet" href="stil.css">
 </head>
+
 <body>
     <form action="https://formspree.io/f/mwvanvrr" method="post">
         <h1>טופס הרשמה להקלטה באולפן </h1>
-        
+
         <div class="bsr">
             <label for="name">שם</label>
             <input type="text" id="name" placeholder="שם" name="name">
@@ -32,25 +34,28 @@
         </div>
         <div class="bsr">
             <label for="country">עיר מגורים</label>
-            <select  id="country"name = "country">
-             <option value="בני ברק">בני ברק</option>
-             <option value="תל אביב">תל אביב </option>
-             <option value="פתח תקוה">פתח תקוה </option>
-             <option value="ירושלים" >ירושלים</option>
-             <option value="רמת גן ">רמת גן</option>
-             <option value="קרית גת ">קרית גת </option>
+            <select id="country" name="country">
+                <option value="בני ברק">בני ברק</option>
+                <option value="תל אביב">תל אביב </option>
+                <option value="פתח תקוה">פתח תקוה </option>
+                <option value="ירושלים">ירושלים</option>
+                <option value="רמת גן ">רמת גן</option>
+                <option value="קרית גת ">קרית גת </option>
             </select>
         </div>
-         <div class="bsr">
-             <button type="submit">שליחה</button>
-             <button type="reset">איפוס</button>
-         </div>
-         <div class="bsr">
-               <label>חתימה</label>
-               <canvas id="signature" width="300" height="120"></canvas>
-               <button type="button" onclick="clearSignature()">נקה חתימה</button>
-         </div>
-         <h2>בהצלחה</h2>
+        <div class="bsr">
+            <label>חתימה</label>
+            <canvas id="signature" width="300" height="120"></canvas>
+            <input type="hidden" id="signature_data" name="signature">
+            <button type="button" onclick="clearSignature()">נקה חתימה</button>
+        </div>
+        <div class="bsr">
+            <button type="submit">שליחה</button>
+            <button type="reset">איפוס</button>
+        </div>
+        <h2>בהצלחה</h2>
+        <script src="pini.js"></script>
     </form>
 </body>
+
 </html>
